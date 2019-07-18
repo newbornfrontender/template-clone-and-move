@@ -1,0 +1,39 @@
+h1 {
+  margin: 0;
+}
+
+.switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 3rem;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: burlywood;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 6rem;
+}
+
+.wrapper:not(:last-of-type) {
+  margin-block-end: 2rem;
+}
+
+.wrapper.first {
+  border: 3px solid tomato;
+}
+
+.wrapper.second {
+  border: 3px solid royalblue;
+}
